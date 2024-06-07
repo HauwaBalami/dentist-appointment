@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(./images/images\ \(3\).jfif);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat; */
+    margin: 0;
+    padding: 0;
+}
+
+.contain{
+    background-image: url(images/vecteezy_ai-generated-dental-clinic-advertisment-background-with-copy_36595001.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat; 
+    margin: auto;
+    width: 100%;
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 200px;
+}
+.img{
+
+    width: 30%;
+}
+   
+
+
+h1 {
+    text-align: center;
+
+}
+
+form {
+   width: 50%; 
+   padding: 130px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+    
+}
+
+label, input, select, button {
+    margin: 10px 0;
+}
+
+input, select, button{
+    height: 50px;
+    width: 100%;
+}
+
+
+button {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color:red;
+     color: white;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    
+      .main{
+    width: 195vh;
+}
+   
+    .contain{
+        width:211vh;
+    }
+    
+   
+    
+   
+    
+   } 
